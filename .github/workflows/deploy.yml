@@ -26,11 +26,16 @@ jobs:
         with:
           node-version: 'lts/*'
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: true
+
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build
-        run: npm run build -- --base /mariusheine/slides-playwright
+        run: pnpm run build -- --base /slides-playwright
 
       - uses: actions/configure-pages@v4
 
