@@ -1,0 +1,18 @@
+<template>
+    <div class="slidev-layout default relative">
+        <div class="my-auto w-full">
+            <slot />
+        </div>
+        <div class="absolute top-2 right-4 flex items-center gap-2 text-2xl">
+            <img src="https://playwright.dev/img/playwright-logo.svg" class="h-[60px]"/>
+            Playwright
+        </div>
+        <div class="absolute bottom-2 left-2 flex items-center text-xs text-gray">
+            <SlideCurrentNo /> / <SlidesTotal />
+        </div>
+        <div class="absolute bottom-2 right-2 flex items-center gap-5 text-2xl">
+            <img src="https://geprog.com/_ipx/_/logo-white.svg" class="hidden dark:block h-[30px]"/>
+            <img src="https://geprog.com/_ipx/_/logo-black.svg" class="dark:hidden h-[30px]"/>
+        </div>
+    </div>
+</template>
