@@ -20,6 +20,18 @@ by Marius Heine (GEPROG GmbH)
 
 ---
 
+# Warum E2E-Tests?
+
+<v-clicks>
+
+- Unit tests
+- Integration tests
+- E2E-Tests
+
+</v-clicks>
+
+---
+
 # Was ist Playwright?
 
 <div grid="~ cols-2 gap-4">
@@ -147,17 +159,15 @@ https://playwright.dev/docs/codegen-intro
   </video>
 </div>
 
-<!-- ---
+---
 
 # Tests ausführen
-
-`pnpm playwright test`
 
 <div grid="~ cols-1 gap-4">
   <video controls>
     <source src="/big-video.webm" type="video/mp4">
   </video>
-</div> -->
+</div>
 
 ---
 
@@ -320,6 +330,15 @@ https://playwright.dev/docs/best-practices#best-practices
   https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-run-end-to-end-tests?wt.mc_id=mpt_azblog20231004_blog_cnl&tabs=playwrightcli
 
 </v-clicks>
+
+--- 
+
+# AI
+
+- https://www.octomind.dev/
+
+- https://codecaptain.ai/ (https://github.com/geprog/codecaptain/)
+
 
 ---
 
