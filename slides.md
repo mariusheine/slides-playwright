@@ -12,6 +12,8 @@ https://github.com/microsoft/playwright
 
 by Marius Heine (GEPROG GmbH)
 
+made with <a>https://sli.dev</a>
+
 ---
 
 # Agenda
